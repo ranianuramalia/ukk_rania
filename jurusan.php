@@ -20,7 +20,6 @@
             <h3>Konsentrasi </h3>
             <h4 class="text-primary">Keahliaan</h4>
         </div>
-        <!-- pencarian -->
         <div class="container mt-4">
             <div class="input-group mb-3">
                 <input type="text" id="searchInput" class="form-control" placeholder="Cari jurusan (contoh: tkj, pplg, toi, dkv,tsm )">
@@ -102,26 +101,6 @@
         </div>
     </div>
     <!-- tutup section -->
-    <!-- <script>
-        function cariJurusan() {
-            const input = document.getElementById('searchInput').value.toLowerCase().trim();
-
-            // Daftar jurusan yang valid
-            const jurusanValid = ['pplg', 'tkj', 'toi', 'tsm', 'dkv'];
-
-            if (jurusanValid.includes(input)) {
-                const target = document.getElementById(input);
-                if (target) {
-                    alert("Jurusan " + input.toUpperCase() + " ditemukan, scroll ke bawah.");
-                    target.scrollIntoView({
-                        behavior: 'smooth'
-                    });
-                }
-            } else {
-                alert("Jurusan tidak ditemukan: " + input);
-            }
-        }
-    </script> -->
 
     <script>
         function cariJurusan() {

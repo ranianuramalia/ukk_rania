@@ -17,69 +17,57 @@
 
     <!-- section galery -->
     <div class="container">
+        <?php
+        $images = [
+            './image/galeri1.png',
+            './image/galeri2.png',
+            './image/galeri3.png',
+            './image/galeri1.png'
+        ];
+        $i = 0;
+        ?>
         <div class="row m-3">
             <div class="col-lg-12">
                 <h3 class="text-center text-primary">Galery</h3>
                 <hr>
                 <div class="row g-0 flex-nowrap">
-                    <div class="col-3 ">
-                        <div class="card text-primary text-center border-0">
-                            <div class="card-body">
-                                <img src="./image/galeri1.png" alt="" class="w-100 h-50">
+                    <?php while ($i < count($images)) { ?>
+                        <div class="col-3 ">
+                            <div class="card text-primary text-center border-0">
+                                <div class="card-body">
+                                    <img src="<?= $images[$i]; ?>" alt="" class="w-100 h-50">
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-3">
-                        <div class="card text-primary text-center border-0">
-                            <div class="card-body">
-                                <img src="./image/galeri2.png" alt="" class="w-100 h-50">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-3">
-                        <div class="card text-primary text-center border-0">
-                            <div class="card-body">
-                                <img src="./image/galeri3.png" alt="" class="w-100 h-50">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-3">
-                        <div class="card text-primary text-center border-0">
-                            <div class="card-body">
-                                <img src="./image/galeri1.png" alt="" class="w-100 h-50">
-                            </div>
-                        </div>
-                    </div>
+                    <?php
+                        $i++;
+                    } ?>
                 </div>
+            </div>
+        </div>
+        <?php
+        $images = [
+            './image/galeri1.png',
+            './image/galeri2.png',
+            './image/galeri3.png',
+            './image/galeri1.png'
+        ];
+        $i = 0;
+        ?>
+        <div class="row m-3">
+            <div class="col-lg-12">
                 <div class="row g-0 flex-nowrap">
-                    <div class="col-3">
-                        <div class="card text-primary text-center border-0">
-                            <div class="card-body">
-                                <img src="./image/galeri1.png" alt="" class="w-100 h-50">
+                    <?php while ($i < count($images)) { ?>
+                        <div class="col-3 ">
+                            <div class="card text-primary text-center border-0">
+                                <div class="card-body">
+                                    <img src="<?= $images[$i]; ?>" alt="" class="w-100 h-50">
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-3">
-                        <div class="card text-primary text-center border-0">
-                            <div class="card-body">
-                                <img src="./image/galeri2.png" alt="" class="w-100 h-50">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-3">
-                        <div class="card text-primary text-center border-0">
-                            <div class="card-body">
-                                <img src="./image/galeri3.png" alt="" class="w-100 h-50">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-3">
-                        <div class="card text-primary text-center border-0">
-                            <div class="card-body">
-                                <img src="./image/galeri1.png" alt="" class="w-100 h-50">
-                            </div>
-                        </div>
-                    </div>
+                    <?php
+                        $i++;
+                    } ?>
                 </div>
             </div>
         </div>

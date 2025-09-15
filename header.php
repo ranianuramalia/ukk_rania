@@ -1,5 +1,13 @@
- <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-        <div class="container"> <img src="./image/logo.png" alt="" width="70px" height="70px">&nbsp; <a class="navbar-brand text-primary " href="#">SMKN 4 Tasikmalaya</a> <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+
+<nav class="navbar navbar-expand-lg navbar-light bg- sticky-top">
+        <div class="container bg-light-subtle rounded-4 p-2 shadow-lg">
+            <img src="./image/logo.png" alt="" width="80px" height="70px">
+            <h4 class="text-primary">SMKN 4 Tasikmalaya</h4></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <div class="collapse navbar-collapse " id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item"> <a class="nav-link" href="index.php">Beranda</a> </li>

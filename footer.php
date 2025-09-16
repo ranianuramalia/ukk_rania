@@ -24,19 +24,19 @@
                     <div class="container mt-5 text-light">
                         <h4>Media Sosial</h4>
                         <hr>
-                        <p>Instagram</p>
-                        <p>Youtube</p>
-                        <p>Fecebook</p>
+                        <a href="https://www.youtube.com/@smkn4tasikmalayamediaoffic704" class="text-white text-decoration-none">Youtube</a><br/>
+                        <a href="https://www.instagram.com/smkn4tsmofficial/" class="text-white text-decoration-none">Instagram</a><br/>
+                        <a href="https://www.facebook.com/4smkn/" class="text-white text-decoration-none">Facebook</a>
                     </div>
                 </div>
                 <div class="col-lg-3">
                     <div class="container mt-5 text-light">
                         <h4>Link External</h4>
                         <hr>
-                        <p>Kemendikbud</p>
-                        <p>Dapodikdasmen</p>
-                        <p>Psmk</p>
-                        <p>Disdik jabar</p>
+                          <a href="https://kemendikdasmen.go.id/" class="text-white text-decoration-none">Kemendikbud</a><br/>
+                          <a href="https://dapo.kemendikdasmen.go.id/sekolah/88C1EAB7D23D6A8BFF61" class="text-white text-decoration-none">Dapodik</a><br />
+                          <a href="https://psmk.jabarprov.go.id/" class="text-white text-decoration-none">PSMK</a><br />
+                          <a href="https://disdik.jabarprov.go.id/" class="text-white text-decoration-none">Disdik Jabar</a>
                     </div>
                 </div>
             </div>

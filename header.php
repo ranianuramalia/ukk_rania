@@ -1,8 +1,8 @@
 
-<nav class="navbar navbar-expand-lg navbar-light bg-prsimary sticky-top">
-        <div class="container bg-light-subtle rounded-4 p-2 shadow-lg">
-            <img src="./image/logo.png" alt="" width="80px" height="70px">
-            <h4 class="text-primary">SMKN 4 Tasikmalaya</h4></a>
+<nav class="navbar navbar-expand-lg navbar-light sticky-top">
+        <div class="container bg-light rounded-4 p-2 shadow">
+            <img src="./image/logo.png" alt="" width="60px" height="70px">
+            <h4 class="text-primary">SMKN 4 Tasikmalaya</h4>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">

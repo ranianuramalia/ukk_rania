@@ -36,7 +36,7 @@
             <div class="col-lg-12">
                 <div class="row">
                     <div class="col-lg-5">
-                        <div class="card border-0">
+                        <div class="card border-0 ">
                             <img src="./image/poto2.png" alt="" class=" rounded mx-auto d-block">
                         </div>
                     </div>

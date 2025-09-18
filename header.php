@@ -1,5 +1,5 @@
 
-<nav class="navbar navbar-expand-lg navbar-light sticky-top">
+<nav class="navbar navbar-expand-lg bg-light navbar-light sticky-top">
         <div class="container bg-light rounded-4 p-2 shadow">
             <img src="./image/logo.png" alt="" width="60px" height="70px">
             <h4 class="text-primary">SMKN 4 Tasikmalaya</h4>

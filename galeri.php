@@ -15,53 +15,74 @@
     <?php include 'header.php'; ?>
     <!-- tutup nav -->
 
-    <!-- section galery -->
-    <div class="container">
-        <?php
-        $images = [
-            './image/galeri1.png',
-            './image/galeri2.png',
-            './image/galeri3.png',
-            './image/galeri1.png'
-        ];
-        ?>
-        <div class="row m-3">
-            <div class="col-lg-12">
-                <h3 class="text-center text-primary">Galery</h3>
-                <hr>
-                <div class="row g-0 flex-nowrap">
-                    <?php foreach ($images as $image) { ?>
-                        <div class="col-3">
-                            <div class="card text-primary text-center border-0">
-                                <div class="card-body">
-                                    <img src="<?= $image; ?>" alt="" class="w-100 h-50" />
-                                </div>
-                            </div>
-                        </div>
-                    <?php } ?>
-                </div>
-            </div>
+<?php
+$images = [
+    './image/galeri1.png',
+    './image/galeri2.png',
+    './image/galeri3.png',
+    './image/galeri1.png',
+    './image/galeri1.png'
+];
+?>
+
+<!-- Section Galeri -->
+<div class="container">
+        <div class="row">
+            <h3>Galeri</h3>
+            <h3 class="text-primary"> Sekolah</h3>
         </div>
-
-
-        <div class="row m-3">
-            <div class="col-lg-12">
-                <h3 class="text-center text-primary">Galery</h3>
-                <div class="row g-0 flex-nowrap">
-                    <?php foreach ($images as $image) { ?>
-                        <div class="col-3">
-                            <div class="card text-primary text-center border-0">
-                                <div class="card-body">
-                                    <img src="<?= $image; ?>" alt="" class="w-100 h-50" />
-                                </div>
+    <div class="row m-3">
+        <div class="col-lg-12">
+            <h3 class="text-center text-primary">Upacara</h3>
+            <hr>
+            <div class="row g-0 flex-wrap">
+                <?php foreach ($images as $img): ?>
+                    <div class="col-3">
+                        <div class="card text-primary text-center border-0">
+                            <div class="card-body">
+                                <img src="<?= $img ?>" alt="galeri" class="w-100 h-50">
                             </div>
                         </div>
-                    <?php } ?>
-                </div>
+                    </div>
+                <?php endforeach; ?>
             </div>
         </div>
     </div>
-    <!-- tutup section galeri-->
+</div>
+<!-- Tutup Section Galeri -->
+
+<?php
+$images = [
+    './image/mbg.png',
+    './image/mbg1.png',
+    './image/mbg2.png',
+    './image/mbg3.png',
+    './image/mbg4.png'
+];
+?>
+
+<!-- Section Galeri -->
+<div class="container">
+    <div class="row m-3">
+        <div class="col-lg-12">
+            <h3 class="text-center text-primary">MBG</h3>
+            <hr>
+            <div class="row g-0 flex-wrap">
+                <?php foreach ($images as $img): ?>
+                    <div class="col-3">
+                        <div class="card text-primary text-center border-0">
+                            <div class="card-body">
+                                <img src="<?= $img ?>" alt="galeri" class="w-100 h-50">
+                            </div>
+                        </div>
+                    </div>
+                <?php endforeach; ?>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Tutup Section Galeri -->
+
 
     <!-- section footer -->
     <?php include 'footer.php'; ?>

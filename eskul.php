@@ -16,7 +16,6 @@
     <!-- tutup nav -->
 
     <!-- section galery -->
-    <ul>
         <?php
         $galeri = [
             "./image/galeri1.png",
@@ -24,9 +23,8 @@
         ];
         foreach ($galeri as $image) {
         ?>
-            <li><img src=<?= $image ?> alt="Galeri Image" style="width:200px;"></li>
+        <div class="card-body"><img src=<?= $image ?> alt="Galeri Image" style="width:200px;"></div>
         <?php } ?>
-    </ul>
     <!-- tutup section galeri-->
     <!--  section foother-->
     <?php include 'footer.php'; ?>

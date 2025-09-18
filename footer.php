@@ -33,12 +33,23 @@
                     <div class="container mt-5 text-light">
                         <h4>Link External</h4>
                         <hr>
-                          <a href="https://kemendikdasmen.go.id/" class="text-white text-decoration-none">Kemendikbud</a><br/>
-                          <a href="https://dapo.kemendikdasmen.go.id/sekolah/88C1EAB7D23D6A8BFF61" class="text-white text-decoration-none">Dapodik</a><br />
-                          <a href="https://psmk.jabarprov.go.id/" class="text-white text-decoration-none">PSMK</a><br />
-                          <a href="https://disdik.jabarprov.go.id/" class="text-white text-decoration-none">Disdik Jabar</a>
+                        <a href="https://kemendikdasmen.go.id/" class="text-white text-decoration-none">Kemendikbud</a><br/>
+                        <a href="https://dapo.kemendikdasmen.go.id/sekolah/88C1EAB7D23D6A8BFF61" class="text-white text-decoration-none">Dapodik</a><br />
+                        <a href="https://psmk.jabarprov.go.id/" class="text-white text-decoration-none">PSMK</a><br />
+                        <a href="https://disdik.jabarprov.go.id/" class="text-white text-decoration-none">Disdik Jabar</a>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="text-light">
+            <hr>
+            <div class="text-center">
+                © 2025. SMK Negeri 4 Tasikmalaya.
+            </div>
+            <div class="text-center">
+                All rights reserved.
+            </div>
+            <hr>
+        </div>
     </div>
+    

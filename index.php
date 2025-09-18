@@ -18,7 +18,7 @@
     <!-- section -->
     <div class="container-fluid border-0">
         <div class="card text-white">
-            <img src="./image/smk.png" class="card-img" alt="...">
+            <img src="./image/smk.png" class="card-img " alt="..." >
             <div class="card-img-overlay m-5 ">
                 <h1 class="card-title text-primary">SMK Negeri 4 Tasikmalya</h1>
                 <h3 class="card-text">Sekolah Pusat Keunggulan</h3>

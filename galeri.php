@@ -36,7 +36,7 @@ $images = [
             <h3 class="text-center text-primary">Upacara</h3>
             <hr>
             <div class="row g-0 flex-wrap">
-                <?php foreach ($images as $img): ?>
+                <?php foreach ($images as $img) { ?>
                     <div class="col-3">
                         <div class="card text-primary text-center border-0">
                             <div class="card-body">
@@ -44,7 +44,7 @@ $images = [
                             </div>
                         </div>
                     </div>
-                <?php endforeach; ?>
+                <?php } ?>
             </div>
         </div>
     </div>

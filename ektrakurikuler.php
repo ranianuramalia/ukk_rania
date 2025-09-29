@@ -14,157 +14,48 @@
 <body>
     <?php include 'header.php'; ?>
     <!-- tutup nav -->
-<?php
+    <?php
 
-?>
+    ?>
     <!-- section extrakurikuler -->
     <div class="container my-4">
         <div class="row">
             <h3>Ektrakurikuler</h3>
             <h3 class="text-primary"> Siswa</h3>
         </div>
-                
+
         <div class="row">
-                <div class="col-3 p-3">
-                    <div class="card">
-                            <div class="card-header">
-                                <img src="image/bulutangki.png" alt="" class="w-100 h-50">
-                            </div>
-                            <div class="card text-center">
-                                <h6>Bulutangkis</h6>
-                            </div>
-                    </div>
-                </div>
-                <div class="col-3 p-3">
-                    <div class="card">
-                            <div class="card-header">
-                                <img src="image/cinema.png" alt="" class="w-100 h-50">
-                            </div>
-                            <div class="card text-center">
-                                <h6>Cinema</h6>
-                            </div>
-                    </div>
-                </div>
-                <div class="col-3 p-3">
-                    <div class="card">
-                            <div class="card-header">
-                                <img src="image/ec.png" alt="" class="w-100 h-50">
-                            </div>
-                            <div class="card text-center">
-                                <h6>English Club</h6>
-                            </div>
-                    </div>
-                </div>
-                <div class="col-3 p-3">
-                    <div class="card">
-                            <div class="card-header">
-                                <img src="image/futsal.png" alt="" class="w-100 h-50">
-                            </div>
-                            <div class="card text-center">
-                                <h6>Futsal</h6>
-                            </div>
-                    </div>
-                </div>
+            <?php
+            $eskul = [
+                ["img" => "image/bulutangki.png", "nama" => "bulu tangkis"],
+                ["img" => "image/cinema.png", "nama" => "cinema"],
+                ["img" => "image/ec.png", "nama" => "englis club"],
+                ["img" => "image/futsal.png", "nama" => "futsal"],
+                ["img" => "image/pmr.png", "nama" => "pmr"],
+                ["img" => "image/plh.png", "nama" => "plh"],
+                ["img" => "image/laskar.png", "nama" => "laskar"],
+                ["img" => "image/pramuka.png", "nama" => "pramuka"],
+                ["img" => "image/pub.png", "nama" => "pub"],
+                ["img" => "image/voly.png", "nama" => "voly"],
+                ["img" => "image/pks.png", "nama" => "pks"],
+                ["img" => "image/pd.png", "nama" => "pd"],
+                ["img" => "image/basket.png", "nama" => "basket"]
+
+            ];
+            foreach ($eskul as $item) {
+            ?>
                 <div class="col-3 p-3">
                     <div class="card">
                         <div class="card-header">
-                            <img src="image/pmr.png" alt="" class="w-100 h-50">
+                            <img src="<?= $item['img'] ?>" alt="" class="w-100 h-50">
                         </div>
                         <div class="card text-center">
-                            <h6>PMR</h6>
+                            <h6><?= $item['nama'] ?></h6>
                         </div>
                     </div>
                 </div>
-                <div class="col-3 p-3">
-                    <div class="card">
-                        <div class="card-header">
-                            <img src="image/plh.png" alt="" class="w-100 h-50">
-                        </div>
-                        <div class="card text-center">
-                            <h6>PLH</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-3 p-3">
-                    <div class="card">
-                        <div class="card-header">
-                            <img src="image/laskar.png" alt="" class="w-100 h-50">
-                        </div>
-                        <div class="card text-center">
-                            <h6>LASKAR</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-3 p-3">
-                    <div class="card">
-                        <div class="card-header">
-                            <img src="image/pramuka.png" alt="" class="w-100 h-50">
-                        </div>
-                        <div class="card text-center">
-                            <h6>PRAMUKA</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-3 p-3">
-                    <div class="card">
-                        <div class="card-header">
-                            <img src="image/pub.png" alt="" class="w-100 h-50">
-                        </div>
-                        <div class="card text-center">
-                            <h6>PUB</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-3 p-3">
-                    <div class="card">
-                        <div class="card-header">
-                            <img src="image/voly.png" alt="" class="w-100 h-50">
-                        </div>
-                        <div class="card text-center">
-                            <h6>VOLY</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-3 p-3">
-                    <div class="card">
-                        <div class="card-header">
-                            <img src="image/paskibra.png" alt="" class="w-100 h-50">
-                        </div>
-                        <div class="card text-center">
-                            <h6>PASKIBRA</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-3 p-3">
-                    <div class="card">
-                        <div class="card-header">
-                            <img src="image/pks.png" alt="" class="w-100 h-50">
-                        </div>
-                        <div class="card text-center">
-                            <h6>PKS</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-3 p-3">
-                    <div class="card">
-                        <div class="card-header">
-                            <img src="image/pd.png" alt="" class="w-100 h-50">
-                        </div>
-                        <div class="card text-center">
-                            <h6>PD</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-3 p-3">
-                    <div class="card">
-                        <div class="card-header">
-                            <img src="image/basket.png" alt="" class="w-100 h-50">
-                        </div>
-                        <div class="card text-center">
-                            <h6>BASKET</h6>
-                        </div>
-                    </div>
-                </div>
+            <?php } ?>
+
         </div>
     </div>
     <!-- tutup section extrakulikuler-->

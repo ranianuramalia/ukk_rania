@@ -13,7 +13,7 @@
 
 <body>
     <?php include 'header.php';
-    tampilkanNavbar(); ?>
+    ?>
     <!-- tutup nav -->
     <!-- section identitas -->
     <div class="container my-5">

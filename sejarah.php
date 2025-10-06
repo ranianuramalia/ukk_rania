@@ -13,7 +13,7 @@
 
 <body>
     <?php include 'header.php';
-    tampilkanNavbar(); ?>
+    ?>
     <!-- SECTION SEJARAH -->
     <div class="row p-5 mx-5">
         <div class="col">

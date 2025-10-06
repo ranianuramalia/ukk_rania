@@ -14,7 +14,7 @@
 
 <body>
     <?php include 'header.php';
-    tampilkanNavbar(); ?>
+    ?>
     <!-- tutup nav -->
     <!-- section -->
     <div class="container-fluid border-0">

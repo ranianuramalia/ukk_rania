@@ -17,13 +17,18 @@
     <!-- tutup nav -->
 
     <?php
-    $images = [
-        './image/galeri1.png',
-        './image/galeri2.png',
-        './image/galeri3.png',
-        './image/galeri1.png',
-        './image/galeri1.png'
-    ];
+    function getImages()
+    {
+        return [
+            './image/galeri1.png',
+            './image/galeri2.png',
+            './image/galeri3.png',
+            './image/galeri1.png',
+            './image/galeri1.png'
+        ];
+    }
+    // variabel dan menmanggil fungsi
+    $images = getImages();
     ?>
 
     <!-- Section Galeri -->
@@ -51,6 +56,7 @@
         </div>
     </div>
     <!-- Tutup Section Galeri -->
+
 
     <?php
     $images = [

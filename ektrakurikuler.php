@@ -56,7 +56,6 @@
                     </div>
                 </div>
             <?php } ?>
-
         </div>
     </div>
     <!-- tutup section extrakulikuler-->

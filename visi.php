@@ -15,7 +15,7 @@
     <?php include 'header.php';
     ?>
     <!-- tutup nav -->
-    <!-- section identitas -->
+    <!-- section  -->
     <div class="container my-5">
         <div class="row">
             <h3>Visi &</h3>

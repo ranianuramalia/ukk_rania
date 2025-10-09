@@ -65,7 +65,42 @@
             </div>
         </div>
     </div>
-
+    <!-- data statik -->
+    <div class="container py-4">
+        <div class="row">
+            <h3 class="text-primary text-center">Data Statistik</h3>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-3">
+                        <div class="card text-center bg-primary text-light">
+                            <h5 class="card-title">1500</h5>
+                            <h5>Siswa</h5>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card text-center bg-primary text-light">
+                            <h5 class="card-title">45</h5>
+                            <h5>Romble</h5>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card text-center bg-primary text-light">
+                            <h5 class="card-title">5</h5>
+                            <h5>keahliaan</h5>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card text-center bg-primary text-light">
+                            <h5 class="card-title">150</h5>
+                            <h5>Guru</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- tutup section -->
     <div class="container">
         <!-- section berita -->
@@ -139,49 +174,8 @@
                 </div>
             </div>
         </div>
-        <!-- tutup section galeri -->
-
-        <!-- section statistik-->
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="row g-0 flex-nowrap">
-                    <div class="col-3">
-                        <div class="card text-primary text-center border-0">
-                            <div class="card-body">
-                                <h2>1500</h2>
-                                Peserta didik
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-3">
-                        <div class="card text-primary text-center border-0">
-                            <div class="card-body">
-                                <h2>100</h2>
-                                Pendidik
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-3">
-                        <div class="card text-primary text-center border-0">
-                            <div class="card-body">
-                                <h2>60</h2>
-                                romble
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-3">
-                        <div class="card text-primary text-center border-0">
-                            <div class="card-body">
-                                <h2>5</h2>
-                                keahlian
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
-    <!-- tutup section atatistik-->
+    <!-- tutup section galeri -->
     <!--  section foother-->
     <?php include 'footer.php'; ?>
     <!-- tutup section foother-->

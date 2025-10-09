@@ -21,14 +21,7 @@
             <h3>Konsentrasi </h3>
             <h4 class="text-primary">Keahliaan</h4>
         </div>
-        <div class="container mt-4">
-            <div class="input-group mb-3">
-                <input type="text" id="searchInput" class="form-control" placeholder="Cari jurusan (contoh: tkj, pplg, toi, dkv,tsm )">
-                <button class="btn btn-primary" onclick="cariJurusan()">Cari</button>
-
-            </div>
-        </div>
-        <div class="container rounded-5 shadow p-3 my-3 " id="pplg">
+        <div class="container rounded-5 shadow p-3 my-3 " >
             <div class="row g-0 flex-nowrap ">
                 <div class="col-4 p-3">
                     <div class="card border-0 mb-3 align-items-center">
@@ -43,7 +36,7 @@
                 </div>
             </div>
         </div>
-        <div class="container rounded-5 shadow p-3 my-3 " id="tkj">
+        <div class="container rounded-5 shadow p-3 my-3 " >
             <div class="row g-0 flex-nowrap">
                 <div class="col-4 ">
                     <div class="card border-0 mb-3 align-items-center">
@@ -58,7 +51,7 @@
                 </div>
             </div>
         </div>
-        <div class="container rounded-5 shadow p-3 my-3 " id="toi">
+        <div class="container rounded-5 shadow p-3 my-3 ">
             <div class="row g-0 flex-nowrap ">
                 <div class="col-4 p-3">
                     <div class="card border-0 mb-3 align-items-center">
@@ -72,7 +65,7 @@
                 </div>
             </div>
         </div>
-        <div class="container rounded-5 shadow p-3 my-3 " id="tsm">
+        <div class="container rounded-5 shadow p-3 my-3 " >
             <div class="row g-0 flex-nowrap ">
                 <div class="col-4 p-3">
                     <div class="card border-0 mb-3 align-items-center">
@@ -86,7 +79,7 @@
                 </div>
             </div>
         </div>
-        <div class="container rounded-5 shadow p-3 my-3 " id="dkv">
+        <div class="container rounded-5 shadow p-3 my-3 ">
             <div class="row g-0 flex-nowrap">
                 <div class="col-4 p-3">
                     <div class="card border-0 mb-3 align-items-center">
@@ -102,33 +95,6 @@
         </div>
     </div>
     <!-- tutup section -->
-
-    <script>
-        function cariJurusan() {
-            const input = document.getElementById('searchInput').value.toLowerCase().trim();
-            const jurusanValid = ['pplg', 'tkj', 'toi', 'tsm', 'dkv'];
-
-            if (jurusanValid.includes(input)) {
-                const target = document.getElementById(input);
-                if (target) {
-                    alert("Jurusan " + input.toUpperCase() + " ditemukan, scroll ke bawah.");
-
-                    // Hitung offset agar tidak tertutup navbar sticky
-                    const navbarHeight = document.querySelector('.navbar').offsetHeight;
-                    const elementPosition = target.getBoundingClientRect().top + window.pageYOffset;
-                    const offsetPosition = elementPosition - navbarHeight;
-
-                    window.scrollTo({
-                        top: offsetPosition,
-                        behavior: 'smooth'
-                    });
-                }
-            } else {
-                alert("Jurusan tidak ditemukan: " + input);
-            }
-        }
-    </script>
-
     <!--  section foother-->
     <?php include 'footer.php'; ?>
     <!-- tutup section foother-->

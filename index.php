@@ -102,7 +102,7 @@
         </div>
     </div>
     <!-- tutup section -->
-    <div class="container">
+    <div class="container rounded-5 shadow p-3 my-3">
         <!-- section berita -->
         <div class="row">
             <div class="col-lg-12">
@@ -140,34 +140,36 @@
                 </div>
             </div>
         </div>
-        <br>
-        <!-- tutup section berita -->
-        <!--  section Galeri -->
-        <?php
-        $images = [
-            "image/galeri1.png",
-            "image/galeri2.png",
-            "image/galeri3.png",
-            "image/galeri1.png"
-        ];
-
-        $i = 0;
-        ?>
+    </div>
+    <br>
+    <!-- tutup section berita -->
+    <!-- Section Galeri -->
+    <?php
+    $images = [
+        './image/mbg.png',
+        './image/mbg1.png',
+        './image/mbg2.png',
+        './image/mbg3.png',
+        './image/mbg4.png'
+    ];
+    ?>
+    <div class="container rounded-5 shadow p-3 my-3">
         <div class="row">
+            <h3>Galeri</h3>
+            <h3 class="text-primary"> Sekolah</h3>
+        </div>
+        <div class="row m-3">
             <div class="col-lg-12">
-                <h3>Galery</h3>
-                <div class="row g-0 flex-nowrap">
-                    <?php while ($i < count($images)) { ?>
+                <div class="row g-0 flex-wrap">
+                    <?php foreach ($images as $img) { ?>
                         <div class="col-3">
                             <div class="card text-primary text-center border-0">
                                 <div class="card-body">
-                                    <img src="<?= $images[$i]; ?>" alt="" class="w-100 h-50">
+                                    <img src="<?= $img ?>" alt="galeri" class="w-100 h-50">
                                 </div>
                             </div>
                         </div>
-                    <?php
-                        $i++;
-                    } ?>
+                    <?php } ?>
                 </div>
                 <div class="card-body text-center my-4">
                     <a class="btn btn-primary" href="galeri.php">Intip lainya</a>
@@ -175,6 +177,8 @@
             </div>
         </div>
     </div>
+    </div>
+    <!-- Tutup Section Galeri -->
     <!-- tutup section galeri -->
     <!--  section foother-->
     <?php include 'footer.php'; ?>

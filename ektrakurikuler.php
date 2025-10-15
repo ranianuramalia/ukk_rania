@@ -24,10 +24,10 @@
             <h3>Ektrakurikuler</h3>
             <h3 class="text-primary"> Siswa</h3>
         </div>
-
-        <div class="row">
-            <?php
-            $eskul = [
+        <?php
+        function getImages()
+        {
+            return [
                 ["img" => "image/bulutangki.png", "nama" => "bulu tangkis"],
                 ["img" => "image/cinema.png", "nama" => "cinema"],
                 ["img" => "image/ec.png", "nama" => "englis club"],
@@ -41,8 +41,14 @@
                 ["img" => "image/pks.png", "nama" => "pks"],
                 ["img" => "image/pd.png", "nama" => "pd"],
                 ["img" => "image/basket.png", "nama" => "basket"]
-
             ];
+        }
+        // variabel dan menmanggil fungsi
+        $eskul = getImages();
+
+        ?>
+        <div class="row">
+            <?php
             foreach ($eskul as $item) {
             ?>
                 <div class="col-3 p-3">

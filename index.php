@@ -149,7 +149,6 @@
         './image/mbg.png',
         './image/mbg1.png',
         './image/mbg2.png',
-        './image/mbg3.png',
         './image/mbg4.png'
     ];
     ?>

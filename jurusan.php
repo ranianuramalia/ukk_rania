@@ -15,84 +15,56 @@
     <?php include 'header.php';
     ?>
     <!-- tutup nav -->
+
     <!-- section identitas -->
     <div class="container my-4">
         <div class="row">
             <h3>Konsentrasi </h3>
             <h4 class="text-primary">Keahliaan</h4>
         </div>
-        <div class="container rounded-5 shadow p-3 my-3 " >
-            <div class="row g-0 flex-nowrap ">
-                <div class="col-4 p-3">
-                    <div class="card border-0 mb-3 align-items-center">
-                        <img src="./image/pplg.png" alt="" width="150" height="150">
-                    </div>
-                </div>
-                <div class="col-8">
-                    <h4>Pengembangan Perangkat Lunak dan Gim (PPLG)</h4><br>
-                    <p>Bidang ini mempersiapkan siswa untuk merancang, mengembangkan, dan mengelola perangkat lunak dan
+        <?php
+        function getjurusan()
+        {
+            return [
+                ["img" => "image/pplg.png", "nama" => "Pengembangan Perangkat Lunak dan Gim (PPLG)", "penjelasan" => "Bidang ini mempersiapkan siswa untuk merancang, mengembangkan, dan mengelola perangkat lunak dan
                         gim. Siswa akan belajar bahasa pemrograman, pengembangan aplikasi, desain gim, serta pengelolaan
-                        proyek teknologi.</p>
-                </div>
-            </div>
-        </div>
-        <div class="container rounded-5 shadow p-3 my-3 " >
-            <div class="row g-0 flex-nowrap">
-                <div class="col-4 ">
-                    <div class="card border-0 mb-3 align-items-center">
-                        <img src="./image/tkj.png" alt="" width="150" height="150">
-                    </div>
-                </div>
-                <div class="col-8">
-                    <h4>Teknik Komputer dan Jaringan (TKJ)</h4><br>
-                    <p>Konsentrasi ini fokus pada perancangan, pengelolaan, dan pemeliharaan jaringan komputer serta
+                        proyek teknologi"],
+                ["img" => "image/tkj.png", "nama" => "Teknik Komputer dan Jaringan (TKJ)", "penjelasan" => "Konsentrasi ini fokus pada perancangan, pengelolaan, dan pemeliharaan jaringan komputer serta
                         teknologi telekomunikasi. Siswa dilatih untuk menguasai teknik instalasi jaringan, administrasi
-                        server, dan troubleshooting perangkat jaringan.</p>
-                </div>
-            </div>
-        </div>
-        <div class="container rounded-5 shadow p-3 my-3 ">
-            <div class="row g-0 flex-nowrap ">
-                <div class="col-4 p-3">
-                    <div class="card border-0 mb-3 align-items-center">
-                        <img src="./image/toi.png" alt="" width="150" height="150">
+                        server, dan troubleshooting perangkat jaringan."],
+                ["img" => "image/dkv.png", "nama" => "Desain Komunikasi Visual (DKV)", "penjelasan" => "Bidang ini berfokus pada pengembangan kemampuan kreatif dalam desain grafis, ilustrasi, animasi,
+                        dan media komunikasi visual untuk berbagai kebutuhan industri kreatif."],
+                ["img" => "image/toi.png", "nama" => "Teknik Otomasi Industri (TOI)", "penjelasan" => "Konsentrasi ini mendalami teknologi otomasi di industri, meliputi pemrograman PLC, robotika, dan
+                        sistem kontrol otomatis untuk meningkatkan efisiensi dan produktivitas di sektor manufaktur."],
+                ["img" => "image/tsm.png", "nama" => "Teknik Sepeda Motor (TSM)", "penjelasan" => "Konsentrasi ini mengajarkan keterampilan teknis dalam perbaikan, perawatan, dan modifikasi sepeda
+                        motor, serta pengetahuan bisnis dan kewirausahaan di bidang otomotif roda dua."],
+
+
+            ];
+        }
+        // variabel dan menmanggil fungsi
+        $jurusan = getjurusan();
+        ?>
+        <?php
+        foreach ($jurusan as $item) {
+        ?>
+            <div class="container rounded-5 shadow p-3 my-3 ">
+                <div class="row g-0 flex-nowrap ">
+
+                    <div class="col-4 p-3">
+
+                        <div class="card border-0 mb-3 align-items-center">
+                            <img src=<?= $item['img'] ?> alt="" width="150" height="150">
+                        </div>
+                    </div>
+                    <div class="col-8">
+                        <h4><?= $item['nama'] ?></h4><br>
+                        <p><?= $item['penjelasan'] ?></p>
                     </div>
                 </div>
-                <div class="col-8">
-                    <h4>Teknik Otomasi Industri (TOI)</h4><br>
-                    <p>Konsentrasi ini mendalami teknologi otomasi di industri, meliputi pemrograman PLC, robotika, dan
-                        sistem kontrol otomatis untuk meningkatkan efisiensi dan produktivitas di sektor manufaktur.</p>
-                </div>
+
             </div>
-        </div>
-        <div class="container rounded-5 shadow p-3 my-3 " >
-            <div class="row g-0 flex-nowrap ">
-                <div class="col-4 p-3">
-                    <div class="card border-0 mb-3 align-items-center">
-                        <img src="./image/tsm.png" alt="" width="150" height="150">
-                    </div>
-                </div>
-                <div class="col-8">
-                    <h4>Teknik Sepeda Motor (TSM)</h4><br>
-                    <p>Konsentrasi ini mengajarkan keterampilan teknis dalam perbaikan, perawatan, dan modifikasi sepeda
-                        motor, serta pengetahuan bisnis dan kewirausahaan di bidang otomotif roda dua.</p>
-                </div>
-            </div>
-        </div>
-        <div class="container rounded-5 shadow p-3 my-3 ">
-            <div class="row g-0 flex-nowrap">
-                <div class="col-4 p-3">
-                    <div class="card border-0 mb-3 align-items-center">
-                        <img src="./image/dkv.png" alt="" width="150" height="150">
-                    </div>
-                </div>
-                <div class="col-8">
-                    <h4>Desain Komunikasi Visual (DKV)</h4><br>
-                    <p>Bidang ini berfokus pada pengembangan kemampuan kreatif dalam desain grafis, ilustrasi, animasi,
-                        dan media komunikasi visual untuk berbagai kebutuhan industri kreatif.</p>
-                </div>
-            </div>
-        </div>
+        <?php } ?>
     </div>
     <!-- tutup section -->
     <!--  section foother-->
